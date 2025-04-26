@@ -1,6 +1,6 @@
 import express from 'express';
 import categoriasROutes from './routes/categorias.routes.js';
-
+import cors from 'cors';
 
 const app = express();
 app.set("port",5000);
